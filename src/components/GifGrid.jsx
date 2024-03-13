@@ -1,6 +1,8 @@
 import { GifItem } from "./GifItem";
 import { useFetchGifs } from "../hooks/useFetchGifs";
 
+
+//Es la categoria en su, con su boton de eliminar, y sus gifs
 export const GifGrid = ({category, handleDelete}) => {
   const {images, isLoading} = useFetchGifs(category)
   return (
