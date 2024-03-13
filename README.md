@@ -1,1 +1,1 @@
-# Buscador de gifs hecho con React :3
+Buscador de gifs hecho con React :3
