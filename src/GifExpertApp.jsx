@@ -14,21 +14,19 @@ export const GifExpertApp = () => {
   }
   return (
     <>
-      <h1>Busca tus gifs papu 🍷😎</h1>
-      <AddCategory
-        onNewCategory={value => onAddCategory(value)}
-      />
+      <div className="titleSearch">
+        <h1>SEARCH GIFs</h1>
+        <AddCategory onNewCategory={(value) => onAddCategory(value)} />
+      </div>
 
-      {categories.map(category =>
-      (
+      {categories.map((category) => (
         <GifGrid
           key={category}
           category={category}
           handleDelete={handleDelete}
         />
-      )
-      )}
+      ))}
     </>
-  )
+  );
 }
 

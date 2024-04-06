@@ -9,7 +9,7 @@ export const GifGrid = ({category, handleDelete}) => {
     <>
       <div className="category-title">
 
-      <h3 className="titlee">{category}</h3>
+      <h1 className="titlee">{category}</h1>
       <button className="button-title" onClick={e => handleDelete(category)}>X</button>
       
       </div>
