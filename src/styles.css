@@ -4,15 +4,13 @@
     justify-content: center;
     align-items: center;
     height: 60px;
-    background-color: rgba(255, 0, 0, 0.4);
+    background-color: rgba(0, 190, 193, 0.459);
     border-radius: 20px;
     margin: 10px;
 }
 .button-title {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(3, 108, 255);
     border: none;
-    padding: 5px 10px;
-    border-radius: 15px;
     font-size: 30px;
     color: rgb(255, 255, 255);
     border-radius: 20px;
@@ -21,24 +19,21 @@
 }
 
 .category-title .titlee {
-   color: red;
+   color: rgb(0, 0, 0);
    border-radius: 10px;
 }
 
-
-
 .titleSearch{
-
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 input {
-    background-color: rgb(255, 255, 255);
-    border-radius: 5px;
+    background-color: rgb(3, 108, 255);
+    border-radius: 10px;
     border: 1px solid rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
     outline: none;
     padding: 10px 15px;
@@ -52,21 +47,20 @@ input {
     justify-content: center;
 }
 
-
 .button-search{
-    background-color: white;
+    background-color: rgb(0, 0, 0);
     border-radius: 10px;
     border: none;
     cursor: pointer;
     font-size: 20px;
     font-weight: bolder;
     padding: 10px;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     margin-left: 1.2rem;
 }
 
 .button-search:hover{
-    color: black;
+    color: rgb(3, 108, 255);
 }
 
 .card {
@@ -101,8 +95,8 @@ input {
 
 * {
     font-family: Helvetica, Arial, sans-serif;
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     padding: 10px;
 }
 

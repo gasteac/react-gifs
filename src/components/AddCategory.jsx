@@ -17,7 +17,6 @@ export const AddCategory = ({ onNewCategory }) => {
     <form onSubmit={onSubmit}>
       <input
         type="text"
-        placeholder="Puppy"
         value={inputValue}
         onChange={onInputChange}
       />
