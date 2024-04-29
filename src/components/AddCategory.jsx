@@ -14,13 +14,17 @@ export const AddCategory = ({ onNewCategory }) => {
     setInputValue("");
   };
   return (
-    <form onSubmit={onSubmit}>
+    <form onSubmit={onSubmit} className="flex items-center ">
       <input
         type="text"
+        placeholder="Type here"
+        className="input input-bordered input-accent w-full max-w-xs"
         value={inputValue}
         onChange={onInputChange}
       />
-      <button className="button-search" type="submit">Search</button>
+      <button className="btn btn-active" type="submit">
+        Search
+      </button>
     </form>
   );
 };
