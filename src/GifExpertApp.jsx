@@ -23,7 +23,7 @@ export const GifExpertApp = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-4xl mt-8 mb-2">Search your favorite gifts</h1>
+        <h1 className="text-4xl mt-8 mb-2">Search your favorite GIFs</h1>
         <div>
         <AddCategory onNewCategory={(value) => onAddCategory(value)} />
         </div>
